@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-//menyertakan file header jantung.h dan manusia.h
+//menyertakan file header jantung.h dan manusia.H
 #include "jantung.h"
 #include "manusia.h"
 
