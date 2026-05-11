@@ -24,3 +24,18 @@ public:
     void cetakAnak();
 };
 
+//pendefinisian prosedur - prosedur pada class ibu diluar class
+void Ibu::tambahAnak(anak* pAnak) {
+    daftar_anak.push_back(pAnak);
+}
+
+void Ibu::cetakAnak() {
+    cout << "Daftar Anak dari Ibu \"" << this->nama << "\":\n";
+    for (auto& a : daftar_anak)
+    {
+        cout << a->nama << "\n";
+    }
+    cout << endl;
+}
+
+#endif
