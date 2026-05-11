@@ -15,4 +15,4 @@ public:
         cout << name << "Mati\n";
     }
 };
-#endif // !MANUSIA_H
+#endif // !MANUSIA_h
